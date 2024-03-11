@@ -5,68 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi primer sitio web</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 
 <body>
     <header>
-        <h1>Titulo Principal</h1>
-        <span>home</span>
-        <span>noticias</span>
-        <span>contacto</span>
+        <h1 class="title" id="Principal">Titulo Principal</h1>
     </header>
 
     <main>
-        <img src="./sourse/WhatsApp Image 2024-02-26 at 17.44.38.jpeg" alt="">
+        <div class="subtitulo">
+            <a href="./index.html">HOME</a>
+            <a href="">NOTICIAS</a>
+            <a href="./contactos.html">CONTACTO</a>
+        </div>
+        <div class="caja">
+            <div class="recuadro">
+                <img class="img" src="./sourse/WhatsApp Image 2024-02-26 at 17.44.38.jpeg" alt="">
+            </div>
+            <div class="recuadro">
+                <img class="img" src="./sourse/_MG_0051 (1).jpg" alt="">
+            </div>
+            <div class="recuadro">
+                <img class="img" src="./sourse/WhatsApp Image 2024-02-26 at 17.44.38.jpeg" alt="">
+            </div>
+            <div class="recuadro">
+                <img class="img" src="./sourse/_MG_0051 (1).jpg" alt="">
+            </div>
+            <div class="recuadro">
+                <img class="img" src="./sourse/WhatsApp Image 2024-02-26 at 17.44.38.jpeg" alt="">
+               </div>
+
+
+
+        </div>
         <section>
-            <h2>Este es Subtítulo de una seccion de noticias</h2>
+            <h2 class="title">Este es Subtítulo de una seccion de noticias</h2>
             <article>
-                <h3>Esta es la noticia 1</h3>
-                <div>
+                <h3 class="title">Esta es la noticia 1</h3>
+                <div class="contenedor">
                     <p>este es mi primer párrafo y el lorem será el segundo Lorem ipsum, dolor sit amet consectetur
                         adipisicing elit. Modi quidem provident error ratione libero odit veniam veritatis et qui aut
                         eligendi quasi porro, eaque neque recusandae nobis! Placeat, quasi non?</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptate officia aliquid est
-                        autem
-                        illum
-                        reiciendis iure neque exercitationem sint. Quibusdam rem soluta nobis repellendus, atque culpa!
-                        Pariatur,
-                        excepturi doloribus!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptate
-                        officia
-                        aliquid
-                        est autem illum
-                        reiciendis iure neque exercitationem sint. Quibusdam rem soluta nobis repellendus, atque culpa!
-                        Pariatur,
-                        excepturi doloribus!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptate
-                        officia
-                        aliquid
-                        est autem illum
-                        reiciendis iure neque exercitationem sint. Quibusdam rem soluta nobis repellendus, atque culpa!
-                        Pariatur,
-                        excepturi doloribus!
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsum officia, magnam quae
+                        maxime pariatur aspernatur cumque quis nulla, iste debitis impedit adipisci reprehenderit
+                        tempora quam tempore necessitatibus enim. Hic.Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Repudiandae ipsum officia, magnam quae maxime pariatur aspernatur cumque quis
+                        nulla, iste debitis impedit adipisci reprehenderit tempora quam tempore necessitatibus enim.
+                        Hic.
                     </p>
                 </div>
 
             </article>
             <hr />
             <article>
-                <h3>Esta es la noticia 2</h3>
-                <p>Este es un listado de la noticia 2</p>
-                <ol>
-                    <li>este es el item </li>
-                    <li>este es el item </li>
-                    <li>este es el item </li>
-                </ol>
+                <h3 class="title">Esta es la noticia 2</h3>
+                <div class="contenedor">
+                    <p>Este es un listado de la noticia 2</p>
+                    <ol>
+                        <li>este es el item </li>
+                        <li>este es el item </li>
+                        <li>este es el item </li>
+                    </ol>
+                </div>
             </article>
 
             <hr />
             <article>
-                <h3>esta es la noticia 3</h3>
-                <p>esta lista no estará ordenado</p>
-                <ul>
-                    <li>este es un elemento</li>
-                    <li>este es elemento adicional</li>
-                    <li>este es otro elemento</li>
-                </ul>
+                <h3 class="title">Esta es la noticia 3</h3>
+                <div class="contenedor">
+                    <p>Esta lista no estará ordenado</p>
+                    <ul>
+                        <li>este es un elemento</li>
+                        <li>este es elemento adicional</li>
+                        <li>este es otro elemento</li>
+                    </ul>
+                </div>
             </article>
 
 
@@ -76,9 +92,10 @@
     </main>
 
     <footer>
-        <p>este es el footer de moi página ahora voy a poner unos enlaces</p>
-
-        <a href="./contactos.html"> ENLACE 1 </a>
+        <h3>Este es el footer de mi página ahora voy a poner un enlace</h3>
+        <a href="./index.html">HOME</a>
+        <a href="">NOTICIAS</a>
+        <a href="./contactos.html">CONTACTO</a>
     </footer>
 
 </body>

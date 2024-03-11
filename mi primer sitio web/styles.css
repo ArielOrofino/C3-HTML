@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7f9b7e;
+    color: #333;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 1.5em;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#Principal {
+    font-size: 3.5em;
+    color: white;
+    font-style: oblique;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.subtitulo {
+    background-color: coral;
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    align-items: flex-start;
+    justify-content: space-around;
+    transition: 1s;
+}
+
+.subtitulo:hover {
+    background-color: aliceblue;
+}
+
+.recuadro {
+    border: 3px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: flex-start;
+    transition: 1s;
+}
+.recuadro:hover{
+    background-color: #b0ecae;
+}
+.caja {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 2em 2em 2em 2em
+    ;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s;
+    font-size: 1.1;
+}
+.caja:hover {
+    background-color: rgb(49, 110, 102);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 1em 1em 1em 1em;
+    justify-content: space-around;
+    align-items: flex-start;
+    transition: 1s;
+    font-size: 1.1;
+}
+.contenedor:hover{
+    background-color: rgb(201, 231, 149);
+}
+.img {
+    width: 200px;
+}
